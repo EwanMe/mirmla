@@ -1,0 +1,26 @@
+name: mirml
+channels:
+  - conda-forge
+dependencies:
+  - ffmpeg=9.0.2
+  - librosa=1.0.0
+  - ipykernel=7.4.0
+  - ipywidgets=8.1.9
+  - jupyterlab=4.6.4
+  - matplotlib=3.11.2
+  - musicbrainzngs=0.7.1
+  - numba=0.68.0
+  - numpy=2.5.4
+  - onnxruntime=1.32.0
+  - pandas=3.1.0
+  - pysoundfile=0.14.0
+  - python=3.12.16
+  - python3-discogs-client=2.10
+  - pytorch=2.14.1
+  - rapidfuzz=3.14.6
+  - scikit-learn=1.9.1
+  - scipy=1.18.1
+  - seaborn=0.13.2
+  - tqdm=4.70.1
+  - pip:
+      - demucs==4.1.0
